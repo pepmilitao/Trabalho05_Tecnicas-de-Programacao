@@ -1,4 +1,5 @@
 package entities.abstracts;
+
 public interface Strategy {
-    public abstract Integer[] sort();
+    public abstract Double[] sortEntities(Double[] arr);
 }
